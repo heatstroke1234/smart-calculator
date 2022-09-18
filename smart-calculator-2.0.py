@@ -4,7 +4,7 @@ from sympy import *
 
 rad = True
 deg = False
-
+#jvhy
 
 w=Tk()
 w.geometry("715x1000")
