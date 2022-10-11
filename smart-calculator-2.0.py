@@ -740,7 +740,10 @@ q5d=Button(w,text="d)3.214,1.33",command=wronganswer5,padx=20,pady=20,width=2,fo
 q5a.grid(row=23,column=1)
 q5b.grid(row=23,column=2)
 q5c.grid(row=23,column=3)
-q5d.grid(row=23,column=4)        
+q5d.grid(row=23,column=4)
+
+# Line below makes this work on MacOS
+# w.mainloop()         
 
 
 
